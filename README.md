@@ -1,4 +1,4 @@
-# para instalar todas las herramientas
+# para instalar todas las herramientas y extensiones de la api
 pip install flask flask_restful flask_sqlalchemy flask_migrate flask_marshmallow marshmallow-sqlalchemy
 
 # para probar api-neologismos
@@ -20,4 +20,23 @@ set APP_SETTINGS_MODULE=config.default
 	flask db upgrade
 	# arrancar el servidor (esta configurado en local. peticiones a localhost:5000 con Postman)
 	flask run
-	
+
+# para instalar todas las herramientas y extensiones de la app-neologismos
+# esta lista aun no esta completa
+pip install Flask-WTF
+pip install email-validator	
+pip install flask-login
+pip install flask-sqlalchemy
+# desde la carpeta api-neologismos	
+# para probar app-neologismos
+# linux	
+export FLASK_APP="run.py"
+# Windows
+set FLASK_APP=run.py
+# desde la carpeta api-neologismos
+	# arrancar en local y elegir puerto
+	flask run --port 6000
+	# arrancar en red
+	flask run --host 0.0.0.0
+	# para debug
+	set "FLASK_ENV=development"
