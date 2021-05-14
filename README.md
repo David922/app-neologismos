@@ -20,6 +20,8 @@ set APP_SETTINGS_MODULE=config.default
 	flask db upgrade
 	# arrancar el servidor (esta configurado en local. peticiones a localhost:5000 con Postman)
 	flask run
+# Toda la info en:
+# https://j2logo.com/flask/tutorial-como-crear-api-rest-python-con-flask/#apirest-flaskhttps://j2logo.com/flask/tutorial-como-crear-api-rest-python-con-flask/#apirest-flask
 
 # para instalar todas las herramientas y extensiones de la app-neologismos
 # esta lista aun no esta completa
@@ -40,3 +42,6 @@ set FLASK_APP=run.py
 	flask run --host 0.0.0.0
 	# para debug
 	set "FLASK_ENV=development"
+	
+# Toda la info en:
+# https://j2logo.com/tutorial-flask-espanol/
