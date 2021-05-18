@@ -29,6 +29,16 @@ pip install Flask-WTF
 pip install email-validator	
 pip install flask-login
 pip install flask-sqlalchemy
+pip install Flask-WTF
+pip install email-validator
+pip install flask-login
+pip install flask-sqlalchemy
+# para la base de datos
+postgreSQL
+pip install psycopg2
+
+pip install python-slugify
+
 # desde la carpeta api-neologismos	
 # para probar app-neologismos
 # linux	
